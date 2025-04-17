@@ -18,7 +18,7 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@pinia/nuxt": "^0.5.4",
     "dotenv": "^16.4.5",
-    "flag-icons": "^7.2.3",
+    "flag-icons": "^7.3.2",
     "nuxt": "^3.13.1",
     "preline": "^2.4.1",
     "vue": "latest"

@@ -54,6 +54,7 @@ export default defineNuxtConfig({
   css: [
       '@fortawesome/fontawesome-svg-core/styles.css',
       '~/assets/styles/main.scss',
+      'flag-icons/css/flag-icons.min.css'
   ],
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
