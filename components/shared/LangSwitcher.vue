@@ -19,7 +19,7 @@ const availableLocales = computed(() => {
     <!-- Dropdown Button -->
     <button
         @click="toggleDropdown"
-        class="border bg-white border-white text-red rounded-full py-2 px-4 flex items-center cursor-pointer space-x-2"
+        class="border bg-white border-white text-red rounded-full py-2 px-4 flex items-center justify-center h-10 cursor-pointer space-x-2"
     >
        <span
            class="fi fis mr-2"

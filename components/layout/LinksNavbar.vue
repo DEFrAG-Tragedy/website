@@ -21,10 +21,6 @@ const isSpecialRoute = computed(() => {
 
 <template>
   <div class="hidden md:flex flex-col gap-8 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5 ">
-    <NuxtLinkLocale @click="handleLinkClick" to="/" class="flex items-center gap-x-3.5 text-white ">
-      <font-awesome-icon icon="fas fa-building-columns" />
-      Home
-    </NuxtLinkLocale>
     <NuxtLinkLocale @click="handleLinkClick" to="/progetto" class="flex items-center gap-x-3.5 text-white ">
       <font-awesome-icon icon="fas fa-diagram-project" />
       {{ $t('project') }}
@@ -52,6 +48,9 @@ const isSpecialRoute = computed(() => {
         </NuxtLinkLocale>
         <NuxtLinkLocale @click="handleLinkClick" to="/collaboratori" class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black submenu">
           {{ $t('collaborators') }}
+        </NuxtLinkLocale>
+        <NuxtLinkLocale @click="handleLinkClick" to="/team-sviluppo" class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black submenu">
+          {{ $t('developmentTeam') }}
         </NuxtLinkLocale>
         <NuxtLinkLocale @click="handleLinkClick" to="/contatti" class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black submenu">
           {{ $t('contacts') }}

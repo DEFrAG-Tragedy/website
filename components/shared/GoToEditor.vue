@@ -21,7 +21,7 @@ const editorUrl = computed(() => {
 <template>
   <a target="_blank"
      :href="editorUrl"
-     class="border bg-white border-white text-red rounded-full py-2 px-4 flex items-center cursor-pointer space-x-2">
+     class="border bg-white border-white text-red rounded-full py-2 px-4 flex items-center justify-center h-10 cursor-pointer space-x-2">
     <font-awesome-icon icon="fa-solid fa-pen-to-square" />
     <span>  {{ $t('goToEditor') }}</span>
   </a>
