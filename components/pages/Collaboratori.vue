@@ -24,5 +24,6 @@ interface Collaborator {
 const collaborators: Collaborator[] = [
   { name: 'Francesco Lupi', descriptionKey: 'francescoLupiDescription' },
   { name: 'Francesco Mambrini', descriptionKey: 'francescoMambriniDescription' },
+  { name: 'Daniela Colomo', descriptionKey: 'danielaColomoDescription' },
 ];
 </script>
