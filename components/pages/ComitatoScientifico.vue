@@ -5,10 +5,10 @@
     <div
       v-for="member in committee"
       :key="member.name"
-      class="my-6 text-base text-gray-700"
+      class="my-6 text-base text-gray-700 text-justify"
     >
       <strong>{{ member.name }}</strong><br />
-      <span v-html="$t(member.descriptionKey)" />
+      <span v-html="$t(member.descriptionKey)" class="block text-justify"  />
     </div>
   </section>
 </template>

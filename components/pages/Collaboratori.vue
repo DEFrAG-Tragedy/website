@@ -5,12 +5,12 @@
     <div
       v-for="person in collaborators"
       :key="person.name"
-      class="my-6 text-base text-gray-700"
+      class="my-6 text-base text-gray-700 text-justify"
     >
       <strong>
         {{ person.name }}
       </strong><br />
-      <span v-html="$t(person.descriptionKey)" />
+      <span v-html="$t(person.descriptionKey)" class="block text-justify" />
     </div>
   </section>
 </template>
@@ -22,8 +22,8 @@ interface Collaborator {
 }
 
 const collaborators: Collaborator[] = [
+{ name: 'Daniela Colomo', descriptionKey: 'danielaColomoDescription' },
   { name: 'Francesco Lupi', descriptionKey: 'francescoLupiDescription' },
   { name: 'Francesco Mambrini', descriptionKey: 'francescoMambriniDescription' },
-  { name: 'Daniela Colomo', descriptionKey: 'danielaColomoDescription' },
 ];
 </script>

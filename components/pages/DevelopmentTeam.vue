@@ -5,7 +5,7 @@
     <div
       v-for="member in devTeam"
       :key="member.name"
-      class="my-6 text-base text-gray-700"
+      class="my-6 text-base text-gray-700 text-justify"
     >
       <a
         :href="member.url"
@@ -15,7 +15,7 @@
       >
         {{ member.name }}
       </a><br />
-      <span v-html="$t(member.descriptionKey)" />
+      <span v-html="$t(member.descriptionKey)" class="block text-justify" />
     </div>
   </section>
 </template>

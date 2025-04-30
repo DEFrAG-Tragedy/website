@@ -5,10 +5,10 @@
     <div
       v-for="person in people"
       :key="person.name"
-      class="my-6 text-base text-gray-700"
+      class="my-6 text-base text-gray-700 text-justify"
     >
       <strong>{{ person.name }}</strong><br />
-      <span v-html="$t(person.descriptionKey)" />
+      <span v-html="$t(person.descriptionKey)" class="block text-justify" />
     </div>
   </section>
 </template>
